@@ -1,0 +1,20 @@
+@font-face {
+    font-family: Helvetica, sans-serif;
+    src: url("Helvetica-Font/Helvetica.ttf") format("truetype");
+}
+html{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+h1{
+    font-family: Georgia, serif;
+}
+article{
+    background: rgb(51, 102, 153);
+    border: 1px;
+    border-radius: 1rem;
+}
+div{
+    padding: 20px;
+}
