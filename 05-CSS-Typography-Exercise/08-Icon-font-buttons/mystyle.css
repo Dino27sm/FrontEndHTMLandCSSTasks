@@ -1,0 +1,15 @@
+@import "https://use.fontawesome.com/releases/v5.8.2/css/all.css";
+
+.button{
+    border: 1px;
+    border-radius: 2px;
+    color: white;
+    text-decoration: none;
+    padding: 3px;
+}
+
+.button.clickme{ background: green;}
+
+.button.emailme{ background: orange;}
+
+body{ padding: 20px;}
