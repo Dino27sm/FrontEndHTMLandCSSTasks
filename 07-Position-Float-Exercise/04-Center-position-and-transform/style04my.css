@@ -1,0 +1,41 @@
+body{
+    box-sizing: border-box;
+    background: rgb(238, 238, 238);
+}
+*{
+    box-sizing: inherit;
+}
+
+.card{
+    display: block;
+    border-radius: 8px;
+    background: white;
+    max-width: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+h1{
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2;
+}
+.info{
+    padding: 10px 30px 30px 30px;
+}
+#btn{
+    background: rgb(0, 153, 0);
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: relative;
+    left: 68%;
+    border: none;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
