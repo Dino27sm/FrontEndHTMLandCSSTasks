@@ -1,0 +1,45 @@
+html{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+h2{
+    font-family: Georgia, serif;
+    padding-bottom: 15px;
+}
+header p{
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+header{
+    max-width: 800px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 20px 0px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+header nav ul{
+    width: 300px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+header nav ul a{
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+main{
+    max-width: 800px;
+}
+main p{
+    padding-bottom: 15px;
+    font-size: 0.8rem;
+}
+header, main{
+    margin: 20px auto;
+}
