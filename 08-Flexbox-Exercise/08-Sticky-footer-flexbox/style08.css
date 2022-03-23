@@ -1,0 +1,22 @@
+body{
+    font-family: Helvetica, sans-serif;
+    background: rgb(238, 238, 238);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header p{
+    font-size: 2rem;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+main h2{
+    font-family: Georgia, serif;
+}
+footer{
+    background: rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
+}
+header p, main, footer p{
+    padding-left: 30px;
+}
