@@ -18,7 +18,6 @@ table tbody tr:last-child {background: #FFFFFF;}
 table td, table th {padding-left: 0.3em;}
 
 @media (max-width: 600px) {
-
     table th {display: none;}
     table tbody td {display: flex;}
 
@@ -28,6 +27,7 @@ table td, table th {padding-left: 0.3em;}
         font-weight: 900;
         font-size: 1.1em;
     }
+    
     table tbody td:first-child:before {
         content: 'First Name'
     }
