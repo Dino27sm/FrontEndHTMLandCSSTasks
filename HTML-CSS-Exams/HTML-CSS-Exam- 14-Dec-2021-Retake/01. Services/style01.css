@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: Poppins, sans-serif;
+    box-sizing: border-box;
+}
+*, *::after, *::before{
+    font-family: inherit;
+    box-sizing: inherit;
+    padding: 0px;
+    margin: 0px;
+}
+.base-box{
+    max-width: 900px;
+    margin: 30px auto;
+    display: block;
+}
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+}
+.article-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.article-box .img-and-text{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+}
+.article-box .img-and-text .picture{width: 100%;}
+.article-box .img-and-text .picture img{width: 100%;}
+
+.article-box .img-and-text .text{
+    display: block;
+    background: #f7f7f7;
+    padding: 0px 15px 15px 25px;
+    margin-top: -6px;
+}
+.article-box .img-and-text .text p{
+    font-size: 13px;
+    line-height: 1.8;
+    margin-top: 12px;
+    color: gray;
+}
+.article-box .img-and-text .text h4{
+    margin-top: 20px;
+}
+.article-box .img-and-text .text button{
+    margin-top: 20px;
+    background: #abc452;
+    border: none;
+    border-radius: 15px;
+    padding: 6px 18px;
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+}
+header h1 span{
+    color: #cada91;
+}
+header h1{
+    font-weight: 600;
+}
+header h6{
+    font-weight: 400;
+    color: gray;
+}
