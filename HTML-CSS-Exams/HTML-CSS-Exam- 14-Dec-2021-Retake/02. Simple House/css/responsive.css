@@ -1,0 +1,25 @@
+@media all and (max-width: 600px){
+    .row.tm-header-inner{
+        flex-flow: column;
+    }
+    .col-12.text-center.tm-section-title{
+        margin: 0px 60px 30px 60px;
+    }
+    .row.tm-welcome-section{
+        align-items: center;
+        justify-content: center;
+    }
+    .row.tm-gallery{
+        margin: 0px;
+        flex-direction: column;
+    }
+    .tm-gallery-page{
+        margin: 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+    article.row{
+        display: flex;
+        flex-direction: column;
+    }
+}
