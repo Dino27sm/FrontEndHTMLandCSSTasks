@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: Poppins, sans-serif;
+}
+*, *::after, *::before{
+    box-sizing: inherit;
+    padding: 0px;
+    margin: 0px;
+}
+.base-box{
+    max-width: 740px;
+    margin: 30px auto;
+    display: block;
+    background: #aaffff;
+}
+.head-box{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 105px;
+}
+.logo{ width: 70px; }
+.logo img{ width: 100%; }
+.head-box nav button{
+    font-size: 9px;
+    color: #5f718e;
+    border: none;
+    background: none;
+    margin-left: 20px;
+    font-weight: 600;
+}
+/* ==========================  orange-box-dog  ================= */
+
+.orange-box-dog{
+    width: 100%;
+    height: 365px;
+    background-image: url(./images/header-bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.orange-box-dog .orabge-left-text{
+    width: 25%;
+    margin: -35px 0px 0px 65px;
+}
+.orange-right-img{
+    width: 55%;
+    align-self: flex-end;
+}
+.orange-right-img img{
+    width: 100%;
+    margin-bottom: -20px;
+    margin-left: -25px;
+}
+.orabge-left-text h1{
+    font-size: 35px;
+    color: white;
+    font-weight: 200;
+}
+.orabge-left-text h2{
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+}
+.orabge-left-text p{
+    font-size: 9px;
+    color: white;
+    font-weight: 200;
+    line-height: 1.8;
+}
+.orabge-left-text button{
+    font-family: inherit;
+    color: #ff9073;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 12px;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+/* ========================  Pets Service ========================== */
+
+.service-dog-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.service-dog-box header{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.service-dog-box header h1{
+    text-align: center;
+    font-size: 25px;
+}
+.service-dog-box p{
+    text-align: center;
+    font-size: 9px;
+    color: #b4b4b4;
+    font-weight: 600;
+}
+.service-dog-box header p{ width: 320px; }
+
+.pets-info-box{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.pets-info-box .pet-box{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #f3e2e1;
+    border-radius: 6px;
+}
+.pets-info-box .pet-box .text{
+    width: 85%;
+    margin-bottom: 40px;
+}
+.pets-info-box .pet-box .text h4{
+    font-size: 14px;
+    text-align: center;
+}
+.pets-info-box .pet-box .text p{
+    text-align: center;
+    margin-top: 12px;
+}
+.pets-info-box .pet-box .picture{
+    width: 90px;
+    height: 85px;
+    background-image: url(./images/service-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 0px 15px;
+}
+.pets-info-box .pet-box .picture img{ width: 55%; }
+
