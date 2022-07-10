@@ -1,0 +1,47 @@
+@media all and (max-width: 768px){
+    .main-movie-poster{
+        display: none;
+    }
+    .main-movie ul{
+        width: 100%;
+        height: 300px;
+    }
+    .main-movie-trailer iframe{
+        width: 400px;
+        height: 100%;
+    }
+
+    .movie{
+        height: auto;
+    }
+    .movie-list li img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media all and (max-width: 414px){
+    .main-movie-poster{
+        display: none;
+    }
+    .main-movie ul{
+        width: 100%;
+        height: 300px;
+    }
+    .main-movie-trailer iframe{
+        width: 400px;
+        height: 100%;
+    }
+
+    .movie{
+        height: auto;
+    }
+    .movie-list li img {
+        width: 100%;
+        height: auto;
+    }
+    .movie-list{
+        flex-direction: column;
+        align-items: center;
+    }
+}
