@@ -1,0 +1,41 @@
+@media all and (max-width: 600px){
+    .collapse.navbar-collapse{
+        display: none;
+    }
+    .container-fluid.hero img{
+        display: none;
+    }
+    section.container, article.container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .col-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    h1, h2, h5{
+        text-align: center;
+    }
+    article.container p{
+        text-align: center;
+    }
+
+    div.col-12.col-sm-12.col-lg-6 p{
+        text-align: center;
+    }
+    .hero-btns{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    div.hero-btns.contact-btn{
+        display: none;
+    }
+    footer ul.contact-nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
