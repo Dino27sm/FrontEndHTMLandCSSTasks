@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import "https://use.fontawesome.com/releases/v5.15.2/css/all.css";
+
+html{
+    font-family: Raleway, sans-serif;
+    box-sizing: border-box;
+}
+*, ::before, *::after{
+    font-family: inherit;
+    box-sizing: inherit;
+}
+.base{
+    max-width: 840px;
+    margin: 20px auto;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 26px;
+    margin: 0px;
+}
+p{
+    font-size: 10px;
+    font-weight: 600;
+    color: #808080;
+    font-style: italic;
+    line-height: 1.8;
+    margin: 20px 0px;
+}
+.text .gray-text{
+    color: #808080;
+    font-weight: 300;
+}
+
+.part-1, .part-2, .part-3, .part-4, .part-5, .part-6{
+    width: 95%;
+    height: 330px;
+    padding: 15px 20px 0px 20px;
+    background: #efefef;
+    margin-bottom: 15px;
+}
+.part-1 header{
+    width: 100%;
+    display: inline-flex;
+    justify-content: right;
+    align-items: center;
+}
+.part-1 header h5{
+    font-size: 10px;
+    font-weight: 600;
+    margin: 0px;
+}
+.part-1 header i{
+    font-size: 18px;
+    margin-left: 12Px;
+}
+.vertical-line{
+    width: 1px;
+    height: 40px;
+    background: #000;
+}
+.text-and-picture{
+    width: 100%;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.part-1 .text{max-width: 300px;}
+.part-1 .picture{max-width: 367px;}
+.part-1 .text{padding-top: 20px;}
+.part-1 .text-and-picture img{width: 100%;}
+
+.part-2 .text-and-picture{
+    margin-top: 18px;
+}
+.part-2 .text{max-width: 388px;}
+.part-2 .picture{max-width: 225px;}
+.part-2 .text{padding-top: 20px;}
+.part-2 .text-and-picture img{width: 100%;}
+.part-2 .text .horisontal-line{
+    width: 40px;
+    height: 1px;
+    background: #808080;
+    margin-right: 15px;
+}
+.part-2 .icons-box i{
+    margin-right: 10px;
+}
+.part-2 .text h1{
+    display: flex;
+    align-items: center;
+}
+
+.part-3{
+    background-image: url(./images/thumb-1.jpeg);
+    background-size: cover;
+}
+
+.part-4{
+    display: flex;
+    align-items: center;
+}
+.part-4 .text{max-width: 300px;}
+.part-4 .picture{max-width: 367px;}
+.part-4 .text{padding-top: 20px;}
+.part-4 .text-and-picture img{width: 100%;}
+
+.part-5{
+    display: block;
+    position: relative;
+}
+.part-5 .two-pictures{
+    max-width: 87%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 70px;
+    left: 50px;
+}
+.part-5 .img-wrap-3{
+    max-width: 380px;
+    position: absolute;
+    top: 36px;
+    left: 207px;
+}
+.part-5 .img-wrap-1, .part-5 .img-wrap-2{width: 40%;}
+.part-5 .img-wrap-1 img, .part-5 .img-wrap-2 img, .part-5 .img-wrap-3 img{width: 100%;}
+
+.part-6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.part-6 .text{
+    max-width: 605px;
+    text-align: center;
+}
+.part-6 footer{
+    font-size: 10px;
+    margin-top: 14px;
+}
+.part-6 ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    max-width: 380px;
+    display: flex;
+    flex-direction: column;
+}
+.part-6 ul li{
+    width: 100%;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.part-6 #mail, .part-6 #subject{
+    width: 48%;
+    background: none;
+    border: 1px solid gray;
+    font-size: 12px;
+    padding: 8px 15px;
+}
+.part-6 #textArea{
+    width: 100%;
+    background: none;
+    border: 1px solid gray;
+    font-size: 12px;
+    padding: 8px 15px;
+}
+.part-6 #form-btn{
+    width: 100%;
+    background: black;
+    border: none;
+    font-size: 12px;
+    padding: 8px 0px;
+    color: white;
+    font-weight: bold;
+}
